@@ -1,0 +1,14 @@
+server:
+  port: 8090
+
+spring:
+  jpa: 
+    database: MYSQL
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  datasource:
+    drive-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost/storecustomer
+    username: root
+    password: Dj212499
